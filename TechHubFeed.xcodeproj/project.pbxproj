@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160737ED177641C7007868BC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160737EB177641C7007868BC /* MainViewController.m */; };
+		160737EE177641C7007868BC /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160737EC177641C7007868BC /* MainViewController.xib */; };
+		1607380917766495007868BC /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607380717766495007868BC /* WebViewController.m */; };
+		1607380A17766495007868BC /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1607380817766495007868BC /* WebViewController.xib */; };
+		1607380D17766FD0007868BC /* TechHubAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1607380C17766FD0007868BC /* TechHubAPIClient.m */; };
+		1607380F17767335007868BC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1607380E17767335007868BC /* Social.framework */; };
 		16D42D3217763FFE0001BC12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D42D3117763FFE0001BC12 /* UIKit.framework */; };
 		16D42D3417763FFE0001BC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D42D3317763FFE0001BC12 /* Foundation.framework */; };
 		16D42D3617763FFE0001BC12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D42D3517763FFE0001BC12 /* CoreGraphics.framework */; };
@@ -16,9 +22,19 @@
 		16D42D4417763FFE0001BC12 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D42D4317763FFE0001BC12 /* Default.png */; };
 		16D42D4617763FFE0001BC12 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D42D4517763FFE0001BC12 /* Default@2x.png */; };
 		16D42D4817763FFE0001BC12 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16D42D4717763FFE0001BC12 /* Default-568h@2x.png */; };
+		213FE34BDF154ED0B9D34315 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9C6C03CDC74144BEF5682E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160737EA177641C7007868BC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		160737EB177641C7007868BC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		160737EC177641C7007868BC /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1607380617766495007868BC /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1607380717766495007868BC /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		1607380817766495007868BC /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		1607380B17766FD0007868BC /* TechHubAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechHubAPIClient.h; sourceTree = "<group>"; };
+		1607380C17766FD0007868BC /* TechHubAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechHubAPIClient.m; sourceTree = "<group>"; };
+		1607380E17767335007868BC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		16D42D2E17763FFE0001BC12 /* TechHubFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechHubFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D42D3117763FFE0001BC12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16D42D3317763FFE0001BC12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +48,8 @@
 		16D42D4317763FFE0001BC12 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		16D42D4517763FFE0001BC12 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		16D42D4717763FFE0001BC12 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E84B951582FC41B2B79C0F68 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		FA9C6C03CDC74144BEF5682E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1607380F17767335007868BC /* Social.framework in Frameworks */,
 				16D42D3217763FFE0001BC12 /* UIKit.framework in Frameworks */,
 				16D42D3417763FFE0001BC12 /* Foundation.framework in Frameworks */,
 				16D42D3617763FFE0001BC12 /* CoreGraphics.framework in Frameworks */,
+				213FE34BDF154ED0B9D34315 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +71,11 @@
 		16D42D2517763FFE0001BC12 = {
 			isa = PBXGroup;
 			children = (
+				1607380E17767335007868BC /* Social.framework */,
 				16D42D3717763FFE0001BC12 /* TechHubFeed */,
 				16D42D3017763FFE0001BC12 /* Frameworks */,
 				16D42D2F17763FFE0001BC12 /* Products */,
+				E84B951582FC41B2B79C0F68 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +93,7 @@
 				16D42D3117763FFE0001BC12 /* UIKit.framework */,
 				16D42D3317763FFE0001BC12 /* Foundation.framework */,
 				16D42D3517763FFE0001BC12 /* CoreGraphics.framework */,
+				FA9C6C03CDC74144BEF5682E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,9 +101,17 @@
 		16D42D3717763FFE0001BC12 /* TechHubFeed */ = {
 			isa = PBXGroup;
 			children = (
+				1607380B17766FD0007868BC /* TechHubAPIClient.h */,
+				1607380C17766FD0007868BC /* TechHubAPIClient.m */,
+				1607380617766495007868BC /* WebViewController.h */,
+				1607380717766495007868BC /* WebViewController.m */,
+				1607380817766495007868BC /* WebViewController.xib */,
 				16D42D4017763FFE0001BC12 /* AppDelegate.h */,
 				16D42D4117763FFE0001BC12 /* AppDelegate.m */,
 				16D42D3817763FFE0001BC12 /* Supporting Files */,
+				160737EA177641C7007868BC /* MainViewController.h */,
+				160737EB177641C7007868BC /* MainViewController.m */,
+				160737EC177641C7007868BC /* MainViewController.xib */,
 			);
 			path = TechHubFeed;
 			sourceTree = "<group>";
@@ -106,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D42D4B17763FFE0001BC12 /* Build configuration list for PBXNativeTarget "TechHubFeed" */;
 			buildPhases = (
+				41F6D5E1336D474BB5EDEF92 /* Check Pods Manifest.lock */,
 				16D42D2A17763FFE0001BC12 /* Sources */,
 				16D42D2B17763FFE0001BC12 /* Frameworks */,
 				16D42D2C17763FFE0001BC12 /* Resources */,
+				36D1EEBFB2234235AF4975FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,10 +187,43 @@
 				16D42D4417763FFE0001BC12 /* Default.png in Resources */,
 				16D42D4617763FFE0001BC12 /* Default@2x.png in Resources */,
 				16D42D4817763FFE0001BC12 /* Default-568h@2x.png in Resources */,
+				160737EE177641C7007868BC /* MainViewController.xib in Resources */,
+				1607380A17766495007868BC /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36D1EEBFB2234235AF4975FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		41F6D5E1336D474BB5EDEF92 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16D42D2A17763FFE0001BC12 /* Sources */ = {
@@ -166,6 +232,9 @@
 			files = (
 				16D42D3E17763FFE0001BC12 /* main.m in Sources */,
 				16D42D4217763FFE0001BC12 /* AppDelegate.m in Sources */,
+				160737ED177641C7007868BC /* MainViewController.m in Sources */,
+				1607380917766495007868BC /* WebViewController.m in Sources */,
+				1607380D17766FD0007868BC /* TechHubAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +310,7 @@
 		};
 		16D42D4C17763FFE0001BC12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84B951582FC41B2B79C0F68 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TechHubFeed/TechHubFeed-Prefix.pch";
@@ -252,6 +322,7 @@
 		};
 		16D42D4D17763FFE0001BC12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84B951582FC41B2B79C0F68 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TechHubFeed/TechHubFeed-Prefix.pch";
@@ -280,6 +351,7 @@
 				16D42D4D17763FFE0001BC12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
